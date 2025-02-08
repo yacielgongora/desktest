@@ -259,7 +259,7 @@ new Statements {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetStatements")]
         public IEnumerable<Statements> Get()
         {
             return data.ToArray();
