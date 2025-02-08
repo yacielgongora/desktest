@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "uE5y9iMHN48qRvQAgYNH2hx5qVseE0pgOevVRsgP/0A=",
+  "Source": "DeskTest.Server",
+  "BasePath": "_content/DeskTest.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\yasie\\source\\repos\\DeskTest\\desktest.client\\desktest.client.esproj",
+      "Version": 2,
+      "Source": "desktest.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

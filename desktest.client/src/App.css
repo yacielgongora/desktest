@@ -1,0 +1,36 @@
+﻿
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Para hacer la tabla responsive */
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+
+    .styled-table th,
+    .styled-table td {
+        padding: 3px 3px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .styled-table th {
+        background-color: #f4f4f4;
+        color: #333;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .styled-table td {
+        font-size: 12px;
+        color: #555;
+    }
+
+    .styled-table tr:hover {
+        background-color: #f9f9f9;
+    }
