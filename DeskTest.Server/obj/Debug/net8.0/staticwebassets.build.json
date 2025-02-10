@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "uE5y9iMHN48qRvQAgYNH2hx5qVseE0pgOevVRsgP/0A=",
+  "Hash": "DzWtx2DsO2vQ1JRuriZAKBBeDYphj0xPd6NpNI4g7HY=",
   "Source": "DeskTest.Server",
   "BasePath": "_content/DeskTest.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\yasie\\source\\repos\\DeskTest\\desktest.client\\desktest.client.esproj",
+      "Identity": "C:\\Users\\yasie\\OneDrive\\Desktop\\Deck\\github\\desktest\\desktest.client\\desktest.client.esproj",
       "Version": 2,
       "Source": "desktest.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

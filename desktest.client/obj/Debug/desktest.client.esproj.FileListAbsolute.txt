@@ -1,1 +1,2 @@
 C:\Users\yasie\source\repos\DeskTest\desktest.client\obj\Debug\desktest.client.esproj.CoreCompileInputs.cache
+C:\Users\yasie\OneDrive\Desktop\Deck\github\desktest\desktest.client\obj\Debug\desktest.client.esproj.CoreCompileInputs.cache

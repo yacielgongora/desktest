@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:54363",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\yasie\\source\\repos\\DeskTest\\DeskTest.Server\\..\\desktest.client",
+"WorkingDirectory": "C:\\Users\\yasie\\OneDrive\\Desktop\\Deck\\github\\desktest\\DeskTest.Server\\..\\desktest.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

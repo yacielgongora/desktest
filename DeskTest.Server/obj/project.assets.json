@@ -484,11 +484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasie\\source\\repos\\DeskTest\\DeskTest.Server\\DeskTest.Server.csproj",
+      "projectUniqueName": "C:\\Users\\yasie\\OneDrive\\Desktop\\Deck\\github\\desktest\\DeskTest.Server\\DeskTest.Server.csproj",
       "projectName": "DeskTest.Server",
-      "projectPath": "C:\\Users\\yasie\\source\\repos\\DeskTest\\DeskTest.Server\\DeskTest.Server.csproj",
+      "projectPath": "C:\\Users\\yasie\\OneDrive\\Desktop\\Deck\\github\\desktest\\DeskTest.Server\\DeskTest.Server.csproj",
       "packagesPath": "C:\\Users\\yasie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yasie\\source\\repos\\DeskTest\\DeskTest.Server\\obj\\",
+      "outputPath": "C:\\Users\\yasie\\OneDrive\\Desktop\\Deck\\github\\desktest\\DeskTest.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

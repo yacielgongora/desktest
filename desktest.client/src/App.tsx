@@ -3,35 +3,12 @@ import './App.css';
 
 import Table from "./components/Table"
 
-interface Statement {
-    statementID: number; 
-    accountNumber: string; 
-    customerName: string; 
-    billingAddress: string; 
-    billingStartDate: string; 
-    billingEndDate: string; 
-    dueDate: string;
-    totalAmountDue: number; 
-    previousBalance: number; 
-    paymentsReceived: number; 
-    energyCharge: number; 
-    deliveryCharger: number; 
-    taxesFees: number; 
-    meterNumber: string; 
-    usageUnit: string; 
-    usageTotal: number; 
-    usagePeak: number; 
-    usageOffPeak: number; 
-    ratePerUnit: number; 
-    serviceAddress: string; 
-    serviceType: string; 
-    providerName: string; 
-}
+import { Statement, Column } from "./types/Interfaces";
 
 function App() {
     const [statements, setStatements] = useState<Statement[]>();
 
-    const columns = [
+    const columns: Column[] =[
         { header: "Statement ID", accessor: "statementID", sortable: true },
         { header: "Account Number", accessor: "accountNumber", sortable: false },
         { header: "Customer Name", accessor: "customerName", sortable: false },
