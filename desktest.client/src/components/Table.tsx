@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useState } from "react";
 
 import { Statement, TableWithPaginationProps } from "../types/Interfaces";
+import { searchContainerStyles, searchInputWrapperStyles, searchInputStyles, paginationStyles, headerStyles } from './Styles';
 
 // Componente para tablas con paginado, filtrado, ordenamiento y reordenamiento
 const TableWithPagination = ({
@@ -158,6 +159,7 @@ const TableWithPagination = ({
                     onClick={() => handlePageChange(currentPage - 1)}
                     disabled={currentPage === 1}
                     style={paginationStyles.button}
+                    /*className={`px-4 py-2 mx-1 border border-gray-300 rounded-md cursor-pointer text-base font-medium transition-colors duration-200`}*/
                 >
                     Previous
                 </button>
@@ -175,62 +177,5 @@ const TableWithPagination = ({
         </div>
     );
 };
-
-// Estilos para el contenedor del campo de búsqueda
-const searchContainerStyles = {
-    position: "relative",
-    marginBottom: "20px",
-    display: "flex",
-    justifyContent: "center",
-} as React.CSSProperties;
-
-// Estilos para el wrapper del input
-const searchInputWrapperStyles = {
-    position: "absolute",
-    right: "0",
-    top: "50%",
-    transform: "translateY(-50%)",
-} as React.CSSProperties;
-
-// Estilos básicos para el campo de búsqueda
-const searchInputStyles = {
-    padding: "8px",
-    width: "300px",
-    border: "1px solid #ccc",
-    borderRadius: "4px",
-} as React.CSSProperties;
-
-// Estilos básicos para el paginado
-const paginationStyles = {
-    container: {
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        marginTop: "20px",
-    },
-    button: {
-        padding: "8px 16px",
-        margin: "0 5px",
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        cursor: "pointer",
-    },
-    pageInfo: {
-        margin: "0 10px",
-        fontSize: "14px",
-        color: "#555",
-    },
-};
-
-// Estilos para los encabezados de la tabla
-const headerStyles = {
-    textAlign: "left",
-    borderBottom: "1px solid #ddd",
-    backgroundColor: "#f4f4f4",
-    color: "#333",
-    fontWeight: "bold",
-    textTransform: "uppercase",
-    fontSize: "12px",
-} as React.CSSProperties;
 
 export default TableWithPagination;
